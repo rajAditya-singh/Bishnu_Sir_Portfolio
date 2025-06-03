@@ -37,8 +37,6 @@ const Navbar = () => {
           <span className='text-[#8245ec]'>&lt;</span>
           <span className='text-white'>Bishnu</span>
           <span className='text-[#8245ec]'>/</span>
-          <span className='text-white'>Kumar</span>
-          <span className='text-[#8245ec]'>/</span>
           <span className='text-white'>Singh</span>
           <span className='text-[#8245ec]'>&gt;</span>
         </div>
@@ -54,7 +52,7 @@ const Navbar = () => {
           ))}
         </ul>
 
-        <div className='hidden md:flex space-x-4'>
+        <div className='hidden md:flex  space-x-4'>
           <a
             href="https://github.com/"
             target="_blank"

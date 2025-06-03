@@ -5,16 +5,16 @@ import profileImage from '../../assets/profile2.png'
 
 function About() {
   return (
-    <section id='about' className='py-4 px-[7vw] md:px-[7vw] lg:px-[20vw] font-sans mt-16 md:mt-24 lg:mt-32'>
+    <section id='about' className='py-4 px-[5vw] md:px-[5vw] lg:px-[12vw] font-sans mt-16 md:mt-24 lg:mt-32'>
       <div className='flex flex-col-reverse md:flex-row justify-between items-center space-x-2'>
         <div className='md:w-1/2 text-center md:text-left mt-8 md:mt-0'>
           <h1 className='text-3xl md:text-6xl sm:text-5xl font-bold text-white mb-2 leading-tight'>
             Hi, I am
           </h1>
-          <h2 className='text-4xl sm:text-6xl md:text-7xl font-bold text-white mb-4 leading-tight'>
+          <h2 className='text-4xl sm:text-6xl md:text-7xl font-bold text-white mb-2 leading-tight'>
             Bishnu Singh
           </h2>
-          <h3 className='text-lg sm:text-2xl md:text-3xl font-semibold mb-4 text-[#8245ec] leading-tight tracking-tighter space-x-2'>
+          <h3 className='text-lg sm:text-2xl md:text-xl lg:text-2xl font-semibold mb-2 text-[#8245ec] leading-tight tracking-tighter space-x-2'>
             <span className='text-white'>
               I am a
             </span>
@@ -29,16 +29,18 @@ function About() {
               typingDelay={500}
               eraseDelay={2000}
               cursorRenderer={(cursor) => (
-                <span className="text-[#8245ec]">{cursor}</span>
+                <span className="text-[#8245ec] ">{cursor}</span>
               )}
               className='font-bold ' />
           </h3>
-          <p className='text-base sm:text-lg md:text-lg text-gray-300 mb-6 mt-6 leading-relaxed'>
+          <p className='text-base sm:text-lg md:text-lg text-gray-300 mt-2 leading-relaxed'>
             I’m a software developer with over 15 years of experience in building and maintaining enterprise applications using VB6.0, VB.NET, ASP.NET, RESTful APIs, and databases like SQL Server and Oracle (PL/SQL). I’m also skilled in tools like Crystal Reports, TOAD, and VSS, with a strong focus on delivering reliable, data-driven solutions.
-            <p className='space-x-2 font-bold'>
-              <span className='text-gray-300 font-bold'>
-                Domain Specialization ->
-              </span>
+            <div className='flex flex-col items-center md:items-start'>
+              <p className='space-x-2 font-bold flex flex-row justify-center md:justify-start items-center mt-1'>
+                <span className='text-gray-300 font-bold underline-offset-2 underline decoration-[#8245ec]'>
+                Domain Specialization
+                </span>
+              </p>
               <ReactTypingEffect
                 text={[
                   'Hospitality Sector',
@@ -53,12 +55,12 @@ function About() {
                   <span>{cursor}</span>
                 )}
                 className='font-bold text-[#8245ec] ' />
-            </p>
+            </div>
           </p>
           <a
             href="https://drive.google.com/file/d/1riTbVZj6A4HWQq1XD4Vxb4iGJjCyEQgC/view?usp=sharing" target='_blank'
             rel='noopener noreferrer'
-            className='inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105'
+            className='inline-block text-white py-3 px-8 rounded-full mt-4 text-lg font-bold transition duration-300 transform hover:scale-105'
             style={{
               background: 'linear-gradient(90deg, #8245ec, #a855f7)',
               boxShadow: '0 0 2px #8245ec, 0 0 2px #8245ec, 0 0 40px #8245ec',

@@ -99,7 +99,6 @@ export const SkillsInfo = [
       { name: 'SQL', logo: Sql },
       { name: 'HTML', logo: htmlLogo },
       { name: 'XML', logo: xml },
-      { name: 'PostgreSQL', logo: postgreLogo },
     ],
   },
   {

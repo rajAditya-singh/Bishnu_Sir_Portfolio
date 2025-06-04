@@ -3,31 +3,38 @@ import { FiMenu, FiX } from "react-icons/fi";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Navbar = () => {
-  const [isOpen, setIsOpen] = useState(false)
+  const [isOpen, setIsOpen] = useState(false);
   const [activeSection, setActiveSection] = useState("");
   const [isScrolled, setIsScrolled] = useState(false);
 
+  // Detect scroll and change navbar background
   useEffect(() => {
     const handleScroll = () => {
-      setIsScrolled(window.scrollY > 50)
-    }
+      setIsScrolled(window.scrollY > 50);
+    };
 
-    window.addEventListener("scroll", handleScroll)
-    return () => window.removeEventListener("scroll", handleScroll)
-  }, [])
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
+  // Smooth scroll function
   const handleMenuItemClick = (sectionId) => {
-    setActiveSection(sectionId)
-    setIsOpen(false)
-  }
+    setActiveSection(sectionId);
+    setIsOpen(false);
+
+    const section = document.getElementById(sectionId);
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+    }
+  };
 
   const menuItems = [
     { id: "about", label: "About" },
     { id: "skills", label: "Skills" },
     { id: "experience", label: "Experience" },
-    { id: "work", label: "Work" },
-    { id: "education", label: "Education" }
-  ]
+    { id: "work", label: "Projects" },
+    { id: "education", label: "Education" },
+  ];
 
   return (
     <nav className={`fixed top-0 w-full z-50 transition duration-300 px-[5vw] md:px-[5vw] lg:px-[12vw] ${isScrolled ? "bg-[#050414] bg-opacity-50 backdrop-blur-md shadow-md" : "bg-transparent"

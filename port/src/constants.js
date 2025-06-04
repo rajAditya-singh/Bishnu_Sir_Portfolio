@@ -32,6 +32,25 @@ import netlifyLogo from './assets/tech_logo/netlify.png';
 import vercelLogo from './assets/tech_logo/vercel.png';
 import postgreLogo from './assets/tech_logo/postgre.png';
 import csharpLogo from './assets/tech_logo/csharp.png';
+import ASPNET from './assets/tech_logo/ASP.NET.png'
+import VBNET from './assets/tech_logo/VB.NET.png'
+import VisualBasic from './assets/tech_logo/Visual Basic.png'
+import ADONET from './assets/tech_logo/ADO.NET.png'
+import WebServices from './assets/tech_logo/Web Services.png' 
+import RESTAPI from './assets/tech_logo/REST API.png'
+import WebAPI from './assets/tech_logo/Web API.png'
+import ActiveX from './assets/tech_logo/ActiveX.png'
+import AJAX from './assets/tech_logo/AJAX.png'
+import jQuery from './assets/tech_logo/jQuery.png'
+import plSql from './assets/tech_logo/plsql.png'
+import Sql from './assets/tech_logo/sql.png'
+import xml from './assets/tech_logo/XML.png'
+import MsSql from './assets/tech_logo/Microsoft SQL Server.png'
+import Oracle from './assets/tech_logo/Oracle.png'
+import MSAccess from './assets/tech_logo/MS Access.png'
+import toad from './assets/tech_logo/Toad.jfif'
+import Vss from './assets/tech_logo/Vss.webp'
+import Crystal from './assets/tech_logo/Crystal.jfif'
 
 // Experience Section Logo's
 import webverseLogo from './assets/company_logo/webverse_logo.png';
@@ -57,56 +76,50 @@ import removebgLogo from './assets/work_logo/remove_bg.png';
 
 export const SkillsInfo = [
   {
-    title: 'Frontend',
+    title: 'Technologies',
     skills: [
-      { name: 'HTML', logo: htmlLogo },
-      { name: 'CSS', logo: cssLogo },
-      { name: 'SASS', logo: sassLogo },
-      { name: 'JavaScript', logo: javascriptLogo },
-      { name: 'React JS', logo: reactjsLogo },
-      { name: 'Angular', logo: angularLogo },
-      { name: 'Redux', logo: reduxLogo },
-      { name: 'Next JS', logo: nextjsLogo },
-      { name: 'Tailwind CSS', logo: tailwindcssLogo },
-      { name: 'GSAP', logo: gsapLogo },
-      { name: 'Material UI', logo: materialuiLogo },
-      { name: 'Bootstrap', logo: bootstrapLogo },
-    ],
-  },
-  {
-    title: 'Backend',
-    skills: [
-      { name: 'Springboot', logo: springbootLogo },
-      { name: 'Node JS', logo: nodejsLogo },
-      { name: 'Express JS', logo: expressjsLogo },
-      { name: 'MySQL', logo: mysqlLogo },
-      { name: 'MongoDB', logo: mongodbLogo },
-      { name: 'Firebase', logo: firebaseLogo },
-      { name: 'PostgreSQL', logo: postgreLogo },
+      { name: 'ASP.NET', logo: ASPNET },
+      { name: 'VB.NET', logo: VBNET },
+      { name: 'ADO.NET', logo: ADONET },
+      { name: 'Web Services', logo: WebServices },
+      { name: 'REST API', logo: RESTAPI },
+      { name: 'Web API', logo: WebAPI },
+      { name: 'ActiveX', logo: ActiveX },
+      { name: 'AJAX', logo: AJAX },
+      { name: 'jQuery', logo: jQuery },
     ],
   },
   {
     title: 'Languages',
     skills: [
-      { name: 'C', logo: cLogo },
-      { name: 'C++', logo: cppLogo },
-      { name: 'Java', logo: javaLogo },
-      { name: 'Python', logo: pythonLogo },
       { name: 'C-Sharp', logo: csharpLogo },
       { name: 'JavaScript', logo: javascriptLogo },
-      { name: 'TypeScript', logo: typescriptLogo },
+      { name: 'PL/SQL', logo: plSql },
+      { name: 'Visual Basic 6.0', logo: VisualBasic },
+      { name: 'SQL', logo: Sql },
+      { name: 'HTML', logo: htmlLogo },
+      { name: 'XML', logo: xml },
+      { name: 'PostgreSQL', logo: postgreLogo },
+    ],
+  },
+  {
+    title: 'Database',
+    skills: [
+      { name: 'Microsoft SQL Server', logo: MsSql },
+      { name: 'Oracle', logo: Oracle },
+      { name: 'MS Access', logo: MSAccess },
     ],
   },
   {
     title: 'Tools',
     skills: [
-      { name: 'Git', logo: gitLogo },
+      { name: 'TOAD', logo: toad },
       { name: 'GitHub', logo: githubLogo },
       { name: 'VS Code', logo: vscodeLogo },
       { name: 'Postman', logo: postmanLogo },
-      { name: 'Compass', logo: mcLogo },
+      { name: 'VSS 6.0', logo: Vss },
       { name: 'Vercel', logo: vercelLogo },
-      { name: 'Netlify', logo: netlifyLogo },
+      { name: 'Crystal Report', logo: Crystal },
       { name: 'Figma', logo: figmaLogo },
     ],
   },

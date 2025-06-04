@@ -5,7 +5,7 @@ import profileImage from '../../assets/profile2.png'
 
 function About() {
   return (
-    <section id='about' className='py-4 px-[5vw] md:px-[5vw] lg:px-[12vw] font-sans mt-16 md:mt-24 lg:mt-32'>
+    <section id='about' className='py-4 px-[5vw] md:px-[5vw] lg:px-[12vw] font-sans mt-10 md:mt-10 lg:mt-14'>
       <div className='flex flex-col-reverse md:flex-row justify-between items-center space-x-2'>
         <div className='md:w-1/2 text-center md:text-left mt-8 md:mt-0'>
           <h1 className='text-3xl md:text-6xl sm:text-5xl font-bold text-white mb-2 leading-tight'>

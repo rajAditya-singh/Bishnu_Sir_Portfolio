@@ -2,6 +2,7 @@ import React from 'react'
 import ReactTypingEffect from 'react-typing-effect'
 import Tilt from 'react-parallax-tilt'
 import profileImage from '../../assets/profile2.png'
+import Resume from '../../assets/Bishnu_sir_Resume.pdf'
 
 function About() {
   return (
@@ -58,7 +59,7 @@ function About() {
             </div>
           </p>
           <a
-            href="https://drive.google.com/file/d/1riTbVZj6A4HWQq1XD4Vxb4iGJjCyEQgC/view?usp=sharing" target='_blank'
+            href={Resume} target='_blank'
             rel='noopener noreferrer'
             className='inline-block text-white py-3 px-8 rounded-full mt-4 text-lg font-bold transition duration-300 transform hover:scale-105'
             style={{

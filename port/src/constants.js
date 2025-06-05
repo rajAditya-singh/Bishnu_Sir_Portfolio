@@ -56,6 +56,9 @@ import Crystal from './assets/tech_logo/Crystal.jfif'
 import webverseLogo from './assets/company_logo/webverse_logo.png';
 import agcLogo from './assets/company_logo/agc_logo.png';
 import newtonschoolLogo from './assets/company_logo/newtonschool_logo.png';
+import RRFin from './assets/company_logo/RRFin.jfif'
+import Royal from './assets/company_logo/Royal.jfif'
+import CSAT from './assets/company_logo/CSAT.jfif'
 
 // Education Section Logo's
 import glaLogo from './assets/education_logo/gla_logo.png';
@@ -126,55 +129,50 @@ export const SkillsInfo = [
   export const experiences = [
     {
       id: 0,
-      img: webverseLogo,
-      role: "Fullstack Developer",
-      company: "Webverse Digital",
-      date: "April 2024 - Present",
-      desc: "Developed dynamic and scalable web applications using the MERN stack, handling both frontend and backend development. Collaborated with cross-functional teams to build responsive UI, implement RESTful APIs, and optimize application performance in an agile environment.",
+      img: RRFin,
+      role: "Sr. Software Engineer & Technical Team Leader",
+      company: "RR Financial Consultants Ltd",
+      date: "Dec 2011 - Present",
+      desc: "Led and mentored teams in developing and maintaining financial applications, including Mutual Funds, FDs, and Insurance. Built a robust ERP system, integrated third-party APIs, optimized large SQL databases, and delivered dynamic reports using Crystal Reports. Collaborated on requirement analysis, testing, and reusable component development.",
       skills: [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "React JS",
-        "TypeScript",
-        "Node JS",
-        "Tailwind CSS",
-        "MongoDb",
-        "Redux",
-        " Next Js",
+        "VB6.0 / VB.NET",
+        "ASP.NET",
+        "SQL Server",
+        "Crystal Reports 8.5",
+        "Web APIs",
+        "ActiveX Controls",
+        "Visual Studio",
       ],
     },
     {
       id: 1,
-      img: agcLogo,
-      role: "Fullstack Engineer",
-      company: "Agumentik Group of Companies",
-      date: "July 2023 - March 2024",
-      desc: "Contributed to innovative projects as a Fullstack Engineer, leading both frontend and backend development using technologies such as HTML, CSS, JavaScript, PHP, SQL, Bootstrap, and ReactJS. Worked closely with the team to deliver responsive, high-performance web applications and improve user experience through seamless integration of various technologies.",
+      img: Royal,
+      role: "Senior Software Engineer",
+      company: "Royal Datamatics PVT. LTD",
+      date: "Oct 2010 - Dec 2011",
+      desc: "Designed and developed ERP modules for apparel industries covering procurement, production, budgeting, accounting, and export documentation. Created optimized PL/SQL procedures in Oracle9i, used TOAD for database management and VSS for version control. Collaborated directly with clients for requirement gathering, testing, and releasing updated ERP features to enhance operational efficiency.",
       skills: [
-        "ReactJS",
-        "Redux",
-        "JavaScript",
-        "Tailwind CSS",
-        "HTML",
-        "CSS",
-        "SQL",
+        "PL/SQL",
+        "Oracle9i",
+        "TOAD 6.3 (for Oracle)",
+        "VSS 6.0",
+        "Visual Basic 6.0",
+        "Crystal Reports 8.5",
       ],
     },
     {
       id: 2,
-      img: newtonschoolLogo,
-      role: "Frontend Intern",
-      company: "Newton School",
-      date: "September 2021 - August 2022",
-      desc: "Worked as a Frontend Developer Intern, designing and implementing scalable UI components and responsive websites using HTML, CSS, JavaScript, Bootstrap, and Material UI. Collaborated with the design team to translate wireframes and prototypes from Figma into interactive, user-friendly web pages.",
+      img: CSAT,
+      role: "Software Engineer",
+      company: "CSAT Systems. PVT. LTD",
+      date: "May 2009 - July 2010",
+      desc: "Designed and implemented Restaurant Management System (RMS) for POS terminals with both touch and non-touch interfaces. Developed master, tax, steward, and security modules using VB6.0 and MS Access/SQL Server. Integrated DOS and Windows-based reports, and managed complete RMS installations and deployments across various client locations.",
       skills: [
-        "HTML",
-        "CSS",
-        "Javascript",
-        "Bootstrap",
-        "Figma",
-        "Material UI",
+        "Visual Basic 6.0",
+        "MS Access",
+        "SQL Server",
+        "Crystal Reports",
+        "Windows XP",
       ],
     },
   ];

@@ -119,7 +119,6 @@ export const SkillsInfo = [
       { name: 'VSS 6.0', logo: Vss },
       { name: 'Vercel', logo: vercelLogo },
       { name: 'Crystal Report', logo: Crystal },
-      { name: 'Figma', logo: figmaLogo },
     ],
   },
 ];

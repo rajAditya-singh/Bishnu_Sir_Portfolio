@@ -133,7 +133,7 @@ export const SkillsInfo = [
       role: "Sr. Software Engineer & Technical Team Leader",
       company: "RR Financial Consultants Ltd",
       date: "Dec 2011 - Present",
-      desc: "Led and mentored teams in developing and maintaining financial applications, including Mutual Funds, FDs, and Insurance. Built a robust ERP system, integrated third-party APIs, optimized large SQL databases, and delivered dynamic reports using Crystal Reports. Collaborated on requirement analysis, testing, and reusable component development.",
+      desc: "Lead and mentored teams in developing and maintaining financial applications, including Mutual Funds, FDs, and Insurance. Built a robust ERP system, integrated third-party APIs, optimized large SQL databases, and delivered dynamic reports using Crystal Reports. Collaborated on requirement analysis, testing, and reusable component development.",
       skills: [
         "VB6.0 / VB.NET",
         "ASP.NET",

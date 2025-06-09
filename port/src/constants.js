@@ -130,7 +130,7 @@ export const SkillsInfo = [
     {
       id: 0,
       img: RRFin,
-      role: "Sr. Software Engineer & Technical Team Leader",
+      role: "Sr.Software Engineer & Tech Team Lead",
       company: "RR Financial Consultants Ltd",
       date: "Dec 2011 - Present",
       desc: "Lead and mentored teams in developing and maintaining financial applications, including Mutual Funds, FDs, and Insurance. Built a robust ERP system, integrated third-party APIs, optimized large SQL databases, and delivered dynamic reports using Crystal Reports. Collaborated on requirement analysis, testing, and reusable component development.",

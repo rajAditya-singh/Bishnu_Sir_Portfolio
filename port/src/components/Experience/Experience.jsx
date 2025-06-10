@@ -48,7 +48,7 @@ function Experience() {
                 <h5 className='text-white font-medium'>Skills:</h5>
                 <ul className='flex flex-wrap mt-2'>
                   {experience.skills.map((skill, index) => (
-                    <li key={index} className='bg-[#8245ec] border border-gray-400 rounded-lg text-xs sm:text-sm mr-2 mb-2 px-4 py-1' >{skill}</li>
+                    <li key={index} className='bg-[#8245ec] text-gray-200 border border-gray-400 rounded-lg text-xs sm:text-sm mr-2 mb-2 px-4 py-1' >{skill}</li>
                   ))}
                 </ul>
               </div>

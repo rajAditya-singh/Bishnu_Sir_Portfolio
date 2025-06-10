@@ -28,8 +28,7 @@ function Experience() {
               <img src={experience.img} alt={experience.company} className='w-full h-full object-cover rounded-full' />
             </div>
 
-            <div className={`w-full sm:max-w-md p-4 sm:p-8 rounded-2xl  border border-white bg-gray-900 backdrop-blur-md shadow-[0_0_20px_1px_rgba(130,69,236,0.3)] ${
-                index % 2 === 0 ? "sm:ml-0" : "sm:mr-0"
+            <div className={`w-full sm:max-w-md p-4 sm:p-8 rounded-2xl  border border-white bg-gray-900 backdrop-blur-md shadow-[0_0_20px_1px_rgba(130,69,236,0.3)] ${index % 2 === 0 ? "sm:ml-0" : "sm:mr-0"
               } sm:ml-34 sm:mr-34 ml-3 transform transition-transform duration-300 hover:scale-105`}>
               <div className='flex items-center space-x-6'>
                 <div className='w-16 h-16 bg-white rounded-lg overflow-hidden'>
@@ -48,7 +47,7 @@ function Experience() {
               <div className='mt-4'>
                 <h5 className='text-white font-medium'>Skills:</h5>
                 <ul className='flex flex-wrap mt-2'>
-                  {experience.skills.map((skill, index)=>(
+                  {experience.skills.map((skill, index) => (
                     <li key={index} className='bg-[#8245ec] border border-gray-400 rounded-lg text-xs sm:text-sm mr-2 mb-2 px-4 py-1' >{skill}</li>
                   ))}
                 </ul>
@@ -57,7 +56,6 @@ function Experience() {
           </div>
         ))}
       </div>
-
     </section>
   )
 }

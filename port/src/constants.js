@@ -39,8 +39,9 @@ import tmbu from './assets/education_logo/tmbu.jfif'
 import rrfinance from './assets/work_logo/RRfinance.jpg'
 import RROneSorce from './assets/work_logo/RROneSorce.jpg'
 import RRmutualfund from './assets/work_logo/RRmutualfund.jpg'
-import Apparel from './assets/work_logo/Apparel.jpg'
+import Apparel from './assets/work_logo/Apparel.png'
 import Restaurant from './assets/work_logo/Restaurant.jpg'
+import rrpolicy from './assets/work_logo/rrpolicy.jpg'
 
 export const SkillsInfo = [
   {
@@ -200,23 +201,23 @@ export const projects = [
     image: RROneSorce,
     tags: ["VB 6.0", "VB.net", "Crystal Report", "Sql Server 2012"],
     github: "#",
-    webapp: "#",
+    // webapp: "#",
   },
   {
     id: 2,
-    title: "Asset Under Management (AUM)",
+    title: "RR Policy",
     description:
-      "Developed AUM Reports for branches and Administrator. Branches can see their AUM for their Relationship Manager’s, Clients/Associate, Nature wise, Fund wise. This report shows the value of the investments on the basic of the date NAV on the selected date. Similar report is available for Admin for all branches, RM’s, Clients/Associates",
-    image: rrfinance,
-    tags: ["Asp.net", "C#", "JavaScript", "XML", "Ado.Net", "Sql 2012", "Ajax", "Crystal Report 11.0"],
+      "rrpolicy.com is the official website of RR Insurance Brokers Pvt. Ltd., offering a wide range of insurance and financial products such as health, life, motor, and travel insurance, along with mutual funds and fixed deposits. The platform enables users to compare policies, purchase insurance, renew plans, and file claims easily, making financial planning simple and accessible.",
+    image: rrpolicy,
+    tags: ["Asp.net", "C#", "Web Services", "JavaScript", "XML", "Ado.Net", "Sql 2005/2012"],
     github: "#",
-    webapp: "#",
+    webapp: "https://www.rrpolicy.com/default.aspx",
   },
   {
     id: 3,
     title: "RR Finance(Online Mutual Fund Portal)",
     description:
-      "Developed the online Mutual Fund for the investors who invested online through our Company to scheme of All Mutual Funds Company like HDFC, AXIS, IDBI...etc.the main motive of this website is to attract those investors who had invested through buy/ sell MF online.A new investor can create a account, once he create a account a gets a mail toactivate his account.and after account registration, your account is active for buy / sell Mutual fund online.the user is provided with a customize report which shows the current value of his investments on basic of current market scenarios",
+      "The website was developed to enable investors to buy and sell mutual funds online across all major fund houses like HDFC, AXIS, and IDBI. New users can register and activate their accounts via email to start investing. The platform also provides customized reports showing the current value of investments based on live market data.",
     image: RRmutualfund,
     tags: ["Asp.net", "C#", "JavaScript", "XML", "Ado.Net", "Sql 2012"],
     github: "#",
@@ -230,7 +231,7 @@ export const projects = [
     image: Apparel,
     tags: ["Visual Basic 6.0", "Oracle9i", "Crystal Reports 8.5", "winXP", "VSS 6.0", "TOAD 6.3"],
     github: "#",
-    webapp: "#",
+    webapp: "https://rdpl.com/apps.html",
   },
   {
     id: 5,
@@ -240,36 +241,7 @@ export const projects = [
     image: Restaurant,
     tags: ["Visual Basic 8.5", "MS Access", "MS Sql Server 2000", "winXP"],
     github: "#",
-    webapp: "#",
+    webapp: "https://csatspl.com/",
   },
-  // {
-  //   id: 6,
-  //   title: "Coding Master",
-  //   description:
-  //     "An ed-tech platform where users can access tech and coding-related blogs, notes, interview questions, e-books, and premium content with payment integration. Built with full-stack technologies for a seamless learning experience.",
-  //   image: cmLogo,
-  //   tags: ["React JS", "Node.js", "MongoDB", "Express", "Payment Integration"],
-  //   github: "https://codingmasterweb.in/",
-  //   webapp: "https://codingmasterweb.in/",
-  // },
-  // {
-  //   id: 7,
-  //   title: "Image Search App",
-  //   description:
-  //     "A React.js-based image search application that allows users to search and download high-quality images from the web. Built using external APIs to ensure a vast library of results for various queries.",
-  //   image: imagesearchLogo,
-  //   tags: ["React JS", "API", "Search Feature", "CSS", "Javascript"],
-  //   github: "https://github.com/codingmastr/Image-Search-App",
-  //   webapp: "https://imagsearch.netlify.app/",
-  // },
-  // {
-  //   id: 8,
-  //   title: "Image Background Remover",
-  //   description:
-  //     "An efficient background removal app built with React.js and API integration. Users can upload any image, remove the background, and download the transparent version for further use.",
-  //   image: removebgLogo,
-  //   tags: ["React JS", "API", "Image Processing", "HTML", "CSS", "Javascript"],
-  //   github: "https://github.com/codingmastr/Image-Background-Remover",
-  //   webapp: "https://removeyourbg.netlify.app/",
-  // },
+  
 ];  

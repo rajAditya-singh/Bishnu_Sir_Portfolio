@@ -50,7 +50,7 @@ function Work() {
 
       {selectedProject && (
         <div className='fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-90'>
-          <div className='bg-gray-900 rounded-xl lg:w-full shadow-2xl w-[95%] max-w-3xl overflow-hidden relative'>
+          <div className='bg-gray-900 rounded-xl lg:w-full shadow-2xl w-[95%] max-w-3xl overflow-hidden relative px-4'>
 
             <div className='flex justify-end'>
               <button
@@ -78,16 +78,16 @@ function Work() {
                     >{tag}</span>
                   ))}
 
-                  <a
-                    href={selectedProject.webapp}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className=" bg-purple-600 hover:bg-purple-800 text-white lg:px-4 lg:py-1 px-2 py-1 rounded-2xl 
-                    lg:text-lg text-sm font-semibold text-center "
-                  >
-                    View Live
-                  </a>
-
+                  {selectedProject.webapp && (
+                    <a
+                      href={selectedProject.webapp}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="bg-purple-600 hover:bg-purple-800 text-white lg:px-4 lg:py-1 px-2 py-1 rounded-2xl lg:text-lg text-sm font-semibold text-center"
+                    >
+                      View Live
+                    </a>
+                  )}
                 </div>
               </div>
 

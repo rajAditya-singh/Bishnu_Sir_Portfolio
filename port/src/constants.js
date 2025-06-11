@@ -78,7 +78,10 @@ import cmLogo from './assets/work_logo/cm.png';
 import imagesearchLogo from './assets/work_logo/image_search.png';
 import removebgLogo from './assets/work_logo/remove_bg.png';
 import rrfinance from './assets/work_logo/RRfinance.PNG'
-
+import RROneSorce from './assets/work_logo/RROneSorce.PNG'
+import RRmutualfund from './assets/work_logo/RRmutualfund.PNG'
+import Apparel from './assets/work_logo/Apparel.PNG'
+import Restaurant from './assets/work_logo/Restaurant.PNG'
 
 export const SkillsInfo = [
   {
@@ -235,7 +238,7 @@ export const projects = [
     title: "RR One Source(ERP)",
     description:
       "This ERP, developed by RRFCL, is a robust financial back-office system designed for the finance industry. It efficiently manages operations related to Mutual Funds, Fixed Deposits, IPOs, NCDs, and Insurance (Life and General). Widely used and fully operational, the ERP features multiple integrated modules such as the MF Module, FD Module, IPO/NCD Module, Mapping Module, Insurance Module, and NAV Module. Together, these modules provide seamless control over the entire financial workflow, making it a powerful solution for managing diverse financial services.",
-    image: csprepLogo,
+    image: RROneSorce,
     tags: ["VB 6.0", "VB.net", "Crystal Report", "Sql Server 2012"],
     github: "#",
     webapp: "#",
@@ -255,7 +258,7 @@ export const projects = [
     title: "RR Finance(Online Mutual Fund Portal)",
     description:
       "Developed the online Mutual Fund for the investors who invested online through our Company to scheme of All Mutual Funds Company like HDFC, AXIS, IDBI...etc.the main motive of this website is to attract those investors who had invested through buy/ sell MF online.A new investor can create a account, once he create a account a gets a mail toactivate his account.and after account registration, your account is active for buy / sell Mutual fund online.the user is provided with a customize report which shows the current value of his investments on basic of current market scenarios",
-    image: npmLogo,
+    image: RRmutualfund,
     tags: ["Asp.net", "C#", "JavaScript", "XML", "Ado.Net", "Sql 2012"],
     github: "#",
     webapp: "https://www.rrfinance.com/OurProducts/MutualFund/default.aspx",
@@ -265,7 +268,7 @@ export const projects = [
     title: "Apparel Process Production System",
     description:
       "This ERP, developed by Royal Datamatics Pvt Ltd, is a comprehensive solution for the apparel industry, integrating order management, procurement, production, export documentation, budgeting, and financial accounting. It streamlines workflow by handling order entry, fabric tracking, inventory management, production progress, export paperwork, and financial records, ensuring seamless operations across the entire apparel supply chain.",
-    image: taskremLogo,
+    image: Apparel,
     tags: ["Visual Basic 6.0", "Oracle9i", "Crystal Reports 8.5", "winXP", "VSS 6.0", "TOAD 6.3"],
     github: "#",
     webapp: "#",
@@ -275,7 +278,7 @@ export const projects = [
     title: "Restaurant Management System(RMS) Touch & NonTouch",
     description:
       "This POS software by Csat Systems Pvt Ltd supports restaurants, home delivery, and bars. It includes Transaction, Master, and Import & Export modules, handling orders, billing, POS setup, item categories, tax structures, and reports in DOS and Windows formats",
-    image: webverLogo,
+    image: Restaurant,
     tags: ["Visual Basic 8.5", "MS Access", "MS Sql Server 2000", "winXP"],
     github: "#",
     webapp: "#",

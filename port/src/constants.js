@@ -162,24 +162,7 @@ export const education = [
     desc: "I completed my Bachelor of Science (B.Sc.) in Mathematics from Tilka Manjhi Bhagalpur University, where I developed strong analytical and problem-solving skills fundamental to the world of technology. While my core focus was on advanced mathematics, my academic journey also exposed me to key computing subjects such as Data Structures and Algorithms, Web Development, and Database Management Systems.Studying at T.M.Bhagalpur University, I had the opportunity to work on practical projects that bridged the gap between theory and application—laying a solid foundation for my future in software development and technology.",
     degree: "Bachelor of Science - BSC (Maths)",
   },
-  // {
-  //   id: 2,
-  //   img: vpsLogo,
-  //   school: "Vatsalya Public School Govardhan, Mathura",
-  //   date: "Apr 2017 - March 2018",
-  //   grade: "78%",
-  //   desc: "I completed my class 12 education from Vatsalya Public School, Govardhan, under the CBSE board, where I studied Physics, Chemistry, and Mathematics (PCM) with Computer Science.",
-  //   degree: "CBSE(XII) - PCM with Computer Science",
-  // },
-  // {
-  //   id: 3,
-  //   img: vpsLogo,
-  //   school: "Vatsalya Public School Govardhan, Mathura",
-  //   date: "Apr 2015 - March 2016",
-  //   grade: "87.5%",
-  //   desc: "I completed my class 10 education from Vatsalya Public School, Govardhan, under the CBSE board, where I studied Science with Computer.",
-  //   degree: "CBSE(X), Science with Computer Application",
-  // },
+  
 ];
 
 export const projects = [

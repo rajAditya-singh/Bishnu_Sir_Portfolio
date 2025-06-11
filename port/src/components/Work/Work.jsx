@@ -1,8 +1,12 @@
 import React from 'react'
-
+import { projects } from '../../constants'
 function Work() {
   return (
-    <div></div>
+    <section 
+    id='work'
+    >
+
+    </section>
   )
 }
 

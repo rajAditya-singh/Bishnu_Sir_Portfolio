@@ -5,7 +5,7 @@ function Experience() {
   return (
     <section
       id='experience'
-      className='py-24 pb-24 px-[5vw] md:px-[5vw] lg:px-[12vw] font-sans bg-skills-gradient clip-path-custom-2'
+      className='py-24 pb-24 px-[7vw] md:px-[7vw] lg:px-[18vw] font-sans bg-skills-gradient clip-path-custom-2'
     >
 
       <div className='text-center mb-16'>
@@ -29,10 +29,10 @@ function Experience() {
             </div>
 
             <div className={`w-full sm:max-w-md p-4 sm:p-8 rounded-2xl  border border-white bg-gray-900 backdrop-blur-md shadow-[0_0_20px_1px_rgba(130,69,236,0.3)] ${index % 2 === 0 ? "sm:ml-0" : "sm:mr-0"
-              } sm:ml-34 sm:mr-34 ml-3 transform transition-transform duration-300 hover:scale-105`}>
+              } sm:ml-34 sm:mr-34 ml-6 transform transition-transform duration-300 hover:scale-105`}>
               <div className='flex items-center space-x-6'>
                 <div className='w-16 h-16 bg-white rounded-lg overflow-hidden'>
-                  <img className='w-full h-full object-cover' src={experience.img} alt={experience.company} />
+                  <img className='w-full h-full object-fill' src={experience.img} alt={experience.company} />
                 </div>
 
                 <div className='flex flex-col justify-between'>

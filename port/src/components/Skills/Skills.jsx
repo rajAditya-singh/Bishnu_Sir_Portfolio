@@ -38,7 +38,7 @@ function Skills() {
 
               <div className='grid grid-cols-2 sm:grid-cols-3 gap-2 w-full'>
                 {category.skills.map((skill) => (
-                  <div key={skill.name} className='flex justify-center items-center space-x-2 bg-transparent border-2 border-gray-700 rounded-3xl py-2 px-2'>
+                  <div key={skill.name} className='flex justify-center items-center space-x-2 bg-transparent border-2 border-gray-700 rounded-3xl py-2 mb-2 px-2 '>
                     <img src={skill.logo} className='w-6 h-6 sm:w-8 sm:h-8 rounded-full' />
                     <span className='text-xs sm:text-xs text-gray-300'>
                       {skill.name}

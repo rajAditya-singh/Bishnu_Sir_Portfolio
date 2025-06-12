@@ -43,8 +43,8 @@ const Navbar = () => {
       <div className='text-white py-5 flex justify-between items-center'>
         <div className='font-semibold text-lg cursor-pointer'>
           <span className='text-[#8245ec]'>&lt;</span>
-          <span className='text-white'>Bishnu</span>
-          <span className='text-[#8245ec]'>/</span>
+          <span className='text-white'>Bishnu </span>
+          {/* <span className='text-[#8245ec]'>/</span> */}
           <span className='text-white'>Singh</span>
           <span className='text-[#8245ec]'>&gt;</span>
         </div>

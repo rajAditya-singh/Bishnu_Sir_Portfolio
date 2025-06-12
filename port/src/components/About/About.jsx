@@ -8,8 +8,8 @@ function About() {
   return (
     <section id='about' className='py-4 px-[5vw] md:px-[5vw] lg:px-[12vw] font-sans mt-10 md:mt-10 lg:mt-12'>
       <div className='flex flex-col-reverse md:flex-row justify-between items-center space-x-2'>
-        <div className='md:w-1/2 text-center md:text-left mt-8 md:mt-12'>
-          <h1 className='text-3xl md:text-6xl sm:text-5xl font-bold text-white mb-2 leading-tight'>
+        <div className='md:w-1/2 text-center md:text-left mt-8 md:mt-16'>
+          <h1 className='text-3xl md:text-7xl sm:text-5xl font-bold text-white mb-2 leading-tight'>
             Hi, I am
           </h1>
           <h2 className='text-4xl sm:text-6xl md:text-7xl font-bold text-white mb-2 leading-tight'>
@@ -34,7 +34,7 @@ function About() {
               )}
               className='font-bold ' />
           </h3>
-          <p className='text-base sm:text-lg md:text-lg text-gray-300 mt-2 leading-relaxed'>
+          <p className='text-sm sm:text-lg md:text-lg text-gray-300 mt-2 leading-relaxed'>
             I’m a Technical Team Leader with over 15 years of experience in software development, project management, and delivering enterprise-grade solutions. I’ve led diverse projects across industries using technologies like VB6.0, VB.NET, ASP.NET, RESTful APIs, SQL Server, and Oracle (PL/SQL). Proficient with tools such as Crystal Reports, TOAD, and VSS. I’m passionate about leading collaborative, agile teams that value open communication, innovation, and continuous learning.
             <div className='flex flex-col items-center md:items-start'>
               <p className='space-x-2 font-bold flex flex-row justify-center md:justify-start items-center mt-1'>
@@ -83,7 +83,7 @@ function About() {
             <img
               src={profileImage}
               alt="Bishnu Singh"
-              className='w-full h-full rounded-full object-cover drop-shadow-[0_10px_20px_rgba(130,69,236,0.5)]'
+              className='w-full h-full rounded-full object-cover   drop-shadow-[0_10px_20px_rgba(130,69,236,0.5)]'
             />
           </Tilt>
         </div>

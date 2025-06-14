@@ -159,7 +159,7 @@ export const education = [
     school: "T.M.Bhagalpur University, Bhagalpur",
     date: "Sept 1998 - Dec 2002",
     grade: "67.75%",
-    desc: "I completed my Bachelor of Science (B.Sc.) in Mathematics from Tilka Manjhi Bhagalpur University, where I developed strong analytical and problem-solving skills fundamental to the world of technology. While my core focus was on advanced mathematics, my academic journey also exposed me to key computing subjects such as Data Structures and Algorithms, Web Development, and Database Management Systems.Studying at T.M.Bhagalpur University, I had the opportunity to work on practical projects that bridged the gap between theory and application—laying a solid foundation for my future in software development and technology.",
+    desc: "Pursued a rigorous undergraduate program focused on the fundamental and advanced principles of mathematics, including algebra, calculus, real and complex analysis, differential equations, and numerical methods. Gained a strong foundation in logical reasoning, abstract thinking, and quantitative analysis. The program emphasized both theoretical understanding and practical problem-solving, preparing me to apply mathematical concepts across diverse academic and real-world contexts. Actively engaged in independent study and collaborative projects that enhanced my analytical and research skills.",
     degree: "Bachelor of Science - BSC (Maths)",
   },
   
